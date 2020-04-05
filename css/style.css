@@ -1,0 +1,182 @@
+/*
+			Master Stylesheet
+	===============================================
+	Template Name : Tinyone
+	Author : Mohammed Sharif
+	Author URL : https://www.facebook.com/mohammedsharif.geniusboy.5
+	Description :
+	Version :1.0.0
+	Tag :
+*/
+/*
+			Table of Contents
+	===============================================
+	1.Typrography
+	2.Header
+	3.features Aria
+	4.
+	5.
+	6.
+	7.
+*/
+/* ============================
+	style for	Typrography
+============================ */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+*, *::after, *::before{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #898989;
+	
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.img-fluid{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+h1, h2, h3, h4, h5, h6{
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 35px;
+	color: #010101;
+}
+p,ul,h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	font-size: 22px;
+	line-height: 25px;
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+h3{
+	font-size: 20px;
+	line-height: 24px;
+	color: #313841;
+	font-weight: 400;
+	padding: 22px 0;
+}
+.row{
+	display: flex;
+}
+.col-6{
+	width: 50%;
+}
+.col-4{
+	width: 33.33333%;
+}
+.col-2{
+	width: 16.66666%
+}
+.col-10{
+	width: 83.33333%
+}
+/* ==========================
+	style for header
+============================= */
+header{
+	background-color: #fcdb00;
+	padding: 50px 0 80px;
+}
+header .navbar-brand{
+	width: 12%;
+}
+header nav{
+	width: 78%;
+}
+header nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 35px;
+}
+header nav ul li:last-child{
+	padding-right: 0;
+}
+header nav ul{
+	text-align: right;
+}
+header nav ul a{
+	color: #010101;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 22px;
+	text-transform: capitalize;
+}
+header nav ul a:hover{
+	color: #ffffff;
+	transition: 0.2s all ease-in-out;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+/* =========style for banner========== */
+.banner{
+	padding-top: 50px;
+}
+.banner p{
+	color: #555555;
+	padding-bottom: 30px;
+}
+.banner ul{
+	list-style: none;
+}
+.banner ul li{
+	display: inline-block;
+}
+.banner ul li a{
+	color: #010101;
+	font-size: 42px;
+}
+.banner .col-6 .content{
+	width: 73%;
+}
+.banner .row{
+	align-items: center;
+}
+.col-6 .banner-img{
+	text-align: right;
+	padding-right: 30px;
+}
+.pr-35{
+	padding-right: 35px;
+}
+/* =================================
+	style for features area
+================================= */
+#featuresArea{
+	padding: 100px 0;
+}
+.tittle{
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+#featuresArea .container>.row{
+	padding: 40px 0;
+}
+.col-2 span{
+	font-size: 50px;
+	color: #010101;
+	width: 60px;
+	text-align: center;
+	display: inline-block;
+}
+.content-area{
+	width: 215px;
+	margin: auto;
+}
+
