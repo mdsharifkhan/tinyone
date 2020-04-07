@@ -14,10 +14,7 @@
 	1.Typrography
 	2.Header
 	3.features Aria
-	4.
-	5.
-	6.
-	7.
+	4.footer Aria
 */
 /* ============================
 	style for	Typrography
@@ -35,7 +32,6 @@ body{
 	font-size: 16px;
 	line-height: 19px;
 	color: #898989;
-	
 }
 .container{
 	width: 80%;
@@ -68,15 +64,17 @@ h3{
 	color: #313841;
 	font-weight: 400;
 	padding: 22px 0;
+	word-break: break-all;
 }
 .row{
 	display: flex;
+	justify-content: space-between;
 }
 .col-6{
 	width: 50%;
 }
 .col-4{
-	width: 33.33333%;
+	width: 28.33333%;
 }
 .col-2{
 	width: 16.66666%
@@ -172,15 +170,125 @@ header nav ul a:hover{
 	font-size: 50px;
 	color: #010101;
 	width: 60px;
-	text-align: center;
 	display: inline-block;
 }
 .content-area{
 	width: 215px;
-	margin: auto;
+	margin-left: auto;
 }
 .content-area h2 a{
 	text-decoration: none;
 	color: #010101;
 }
-
+/* ===========================
+	style for footer
+========================== */
+footer{
+	background-color: #010101;
+	padding: 100px 0;
+}
+footer .tittle h1{
+	color: #fcdb00;
+}
+footer .tittle h3{
+	color: #898989;
+}
+form{
+	display: flex;
+	justify-content: space-between;
+}
+input[type=email]{
+	width: 83%;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	padding: 0 20px;
+	border: 2px solid transparent;
+}
+input[type=email]:focus{
+	outline: none;
+	border-color: #fcdb00; 
+}
+input[type="email"]::placeholder{
+	font-size: 16px;
+}
+button{
+	width: 15%;
+	border: none;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	font-size: 16px;
+	background-color: #fcdb00;
+	color: #010101;
+	text-transform: uppercase;
+	font-weight: 700;
+	cursor: pointer;
+	transition: .3s;
+}
+button:focus{
+	outline: none;
+}
+button:hover{
+	border-color: #fcdb00;
+	background: transparent;
+	color: #ffffff;
+}
+.social-icon{
+	width: 30%;
+	display: flex;
+	margin: 0 auto;
+	padding: 70px 0;
+}
+.social-icon ul li{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: #fcdb00;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 20px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	transition: 0.3s all ease-in-out;
+	border: 2px solid transparent;
+}
+.social-icon ul li:hover{
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #010101;
+	border-color: #fcdb00;
+}
+.social-icon ul li:hover a{
+	color: #fcdb00;
+}
+.social-icon ul li a{
+	color: #010101;
+	font-size: 30px;
+	display: block;
+	margin: 8px;
+}
+.footer{
+	padding: 40px 0;
+}
+.footer .container{
+	width: 65%;
+}
+address span{
+	display: block;
+}
+.footer ul li{
+	list-style: none;
+	color: #ffffff;
+	transition: 0.3s all ease-in-out;
+}
+.footer ul li a, address span, span a{
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #ffffff;
+}
+.footer ul li:hover a{
+	color: #fcdb00;
+}
