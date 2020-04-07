@@ -76,11 +76,11 @@ h3{
 .col-4{
 	width: 28.33333%;
 }
-.col-2{
-	width: 16.66666%
+.col-3{
+	width: 30%
 }
-.col-10{
-	width: 83.33333%
+.col-9{
+	width: 70%
 }
 /* ==========================
 	style for header
@@ -166,7 +166,7 @@ header nav ul a:hover{
 #featuresArea .container>.row{
 	padding: 40px 0;
 }
-.col-2 span{
+.col-3 span{
 	font-size: 50px;
 	color: #010101;
 	width: 60px;
@@ -174,7 +174,6 @@ header nav ul a:hover{
 }
 .content-area{
 	width: 215px;
-	margin-left: auto;
 }
 .content-area h2 a{
 	text-decoration: none;
